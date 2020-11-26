@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>request</title>
+</head>
+<body>
+    <form action="testRequestServlet">
+        <input type="text" name="name">
+        <input type="submit" value="提交">
+    </form>
+    <hr>
+    <form action="testRequestServlet" method="post">
+        <input type="text" name="name">
+        <input type="password" name="password">
+        <input type="radio" value="man" name="sex">男
+        <input type="radio" value="feman" name="sex">女
+        <input type="checkbox" name="hobbies" value="eat">吃
+        <input type="checkbox" name="hobbies" value="drink">喝
+        <input type="checkbox" name="hobbies" value="la">拉
+        <textarea name="info">
+        </textarea>
+        <input type="submit" value="提交">
+    </form>
+    <hr>
+
+    <form action="uploadServlet" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename">
+        <button type="submit">提交</button>
+    </form>
+
+    <form action="uploadMoreServlet" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename1">
+        <input type="file" name="filename2">
+        <input type="file" name="filename3">
+        <input type="file" name="filename4">
+        <button type="submit">提交</button>
+    </form>
+    <hr>
+    <a href="config">config</a>
+    <a href="response">response</a>
+    <a href="response2">response2</a>
+    <a href="diaodu">调度</a>
+</body>
+</html>
