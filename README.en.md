@@ -1,7 +1,11 @@
 # 实现培训
 
 #### Description
+<<<<<<< HEAD
 2020年培训代码
+=======
+培训
+>>>>>>> 6a43230f1dd60b98cc73f5794cf11ffc30a4d852
 
 #### Software Architecture
 Software architecture description
